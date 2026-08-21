@@ -8,15 +8,12 @@ const Header = () => {
   return (
     <nav className="bg-[#c3eff8] rounded-b-3xl">
 
-      {/* ================= DESKTOP / HEADER BAR ================= */}
       <div className="h-16 max-w-7xl mx-auto flex items-center justify-between relative">
 
-        {/* ================= LOGO - LEFT ================= */}
         <div className="text-3xl text-[#0d6efd] font-bold px-4">
           LOGO
         </div>
 
-        {/* ================= DESKTOP MENU - CENTER ================= */}
         <div className="hidden sm:flex items-center gap-2 absolute left-1/2 -translate-x-1/2">
 
           <Link
@@ -36,7 +33,6 @@ const Header = () => {
 
         </div>
 
-        {/* ================= LOGIN - RIGHT ================= */}
         <div className="hidden sm:block px-4">
           <button
             className="rounded-full bg-blue-700 text-white py-2 px-6 
@@ -47,7 +43,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* ================= MOBILE HAMBURGER ================= */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="px-5 sm:hidden text-gray-800 text-2xl"
@@ -58,7 +53,6 @@ const Header = () => {
 
       </div>
 
-      {/* ================= MOBILE MENU ================= */}
       <div
         className={`${
           isOpen ? "block" : "hidden"

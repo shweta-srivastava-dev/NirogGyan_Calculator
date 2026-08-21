@@ -93,7 +93,6 @@ const HypothyroidCalculator = () => {
   return (
     <section className="min-h-screen bg-gray-300 p-5">
 
-      {/* Header */}
       <div className="text-center py-10">
 
         <div className="inline-block bg-gradient-to-r from-[#0dcaf0] to-[#0b3ed8] text-white px-5 py-2 rounded-full text-sm font-medium shadow-md">
@@ -110,7 +109,6 @@ const HypothyroidCalculator = () => {
         </p>
       </div>
 
-      {/* Form Card */}
       <div className="max-w-4xl mx-auto bg-white rounded-3xl p-6 md:p-10 shadow-md">
 
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
@@ -125,7 +123,6 @@ const HypothyroidCalculator = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            {/* Age */}
             <div>
               <label
                 htmlFor="age"
@@ -148,7 +145,6 @@ const HypothyroidCalculator = () => {
               />
             </div>
 
-            {/* Gender */}
             <div>
               <label
                 htmlFor="gender"
@@ -171,7 +167,6 @@ const HypothyroidCalculator = () => {
               </select>
             </div>
 
-            {/* Family History */}
             <div>
               <label
                 htmlFor="familyHistory"
@@ -194,7 +189,6 @@ const HypothyroidCalculator = () => {
               </select>
             </div>
 
-            {/* Symptoms */}
             <div>
               <label
                 htmlFor="symptoms"
@@ -227,7 +221,6 @@ const HypothyroidCalculator = () => {
               </select>
             </div>
 
-            {/* Autoimmune */}
             <div>
               <label
                 htmlFor="autoimmuneDisease"
@@ -250,7 +243,6 @@ const HypothyroidCalculator = () => {
               </select>
             </div>
 
-            {/* TSH */}
             <div>
               <label
                 htmlFor="tsh"
@@ -277,7 +269,6 @@ const HypothyroidCalculator = () => {
               </p>
             </div>
 
-            {/* Free T4 / T3 */}
             <div>
               <label
                 htmlFor="freeT4OrT3"
@@ -312,7 +303,6 @@ const HypothyroidCalculator = () => {
               </p>
             </div>
 
-            {/* Thyroid Antibodies */}
             <div>
               <label
                 htmlFor="thyroidAntibodies"
@@ -349,7 +339,6 @@ const HypothyroidCalculator = () => {
 
           </div>
 
-          {/* Consent */}
           <div className="mt-8 rounded-2xl border border-gray-200 bg-gray-50 p-4">
 
             <label
@@ -376,7 +365,6 @@ const HypothyroidCalculator = () => {
             </label>
           </div>
 
-          {/* Submit */}
           <button
             type="submit"
             disabled={isLoading || !consent}
@@ -389,7 +377,6 @@ const HypothyroidCalculator = () => {
 
         </form>
 
-        {/* Disclaimer */}
         <p className="mt-6 text-xs text-gray-400 text-center leading-relaxed">
           This calculator is intended for informational and risk-assessment
           purposes only. It is not a diagnosis and should not replace advice
@@ -398,7 +385,6 @@ const HypothyroidCalculator = () => {
 
       </div>
 
-      {/* ================= RESULT MODAL ================= */}
 
       {result && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">

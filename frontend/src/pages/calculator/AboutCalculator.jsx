@@ -5,7 +5,6 @@ const AboutCalculator = () => {
   return (
     <section className="min-h-screen bg-gray-300 p-5">
 
-      {/* Hero */}
       <div className="bg-white rounded-3xl px-6 py-14 md:px-12 text-center shadow-2xl shadow-gray-800">
 
         {/* Badge */}
@@ -30,7 +29,6 @@ const AboutCalculator = () => {
 
       </div>
 
-      {/* What Are Our Calculators */}
       <div className="max-w-6xl mx-auto mt-8 bg-white rounded-3xl p-6 md:p-10">
 
         <h2 className="text-3xl font-bold text-[#0b3ed8]">
@@ -53,7 +51,6 @@ const AboutCalculator = () => {
 
       </div>
 
-      {/* How It Works */}
       <div className="max-w-6xl mx-auto mt-8 bg-white rounded-3xl p-6 md:p-10">
 
         <h2 className="text-3xl font-bold text-[#0b3ed8] text-center">
@@ -62,7 +59,6 @@ const AboutCalculator = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
 
-          {/* Step 1 */}
           <div className="bg-[#f2f8fa] rounded-2xl p-6">
             <div className="w-12 h-12 rounded-full bg-[#0dcaf0] text-white flex items-center justify-center text-xl font-bold">
               1
@@ -78,7 +74,6 @@ const AboutCalculator = () => {
             </p>
           </div>
 
-          {/* Step 2 */}
           <div className="bg-[#faf2f6] rounded-2xl p-6">
             <div className="w-12 h-12 rounded-full bg-[#0b3ed8] text-white flex items-center justify-center text-xl font-bold">
               2
@@ -94,7 +89,6 @@ const AboutCalculator = () => {
             </p>
           </div>
 
-          {/* Step 3 */}
           <div className="bg-[#e3fffb] rounded-2xl p-6">
             <div className="w-12 h-12 rounded-full bg-[#0dcaf0] text-white flex items-center justify-center text-xl font-bold">
               3
@@ -113,7 +107,6 @@ const AboutCalculator = () => {
         </div>
       </div>
 
-      {/* Available Calculators */}
       <div className="max-w-6xl mx-auto mt-8 bg-white rounded-3xl p-6 md:p-10">
 
         <h2 className="text-3xl font-bold text-[#0b3ed8]">
@@ -127,7 +120,6 @@ const AboutCalculator = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
 
-          {/* Diabetes */}
           <div className="border border-gray-200 rounded-2xl p-6 hover:shadow-md transition">
 
             <h3 className="text-xl font-bold text-gray-800">
@@ -149,7 +141,6 @@ const AboutCalculator = () => {
 
           </div>
 
-          {/* Heart */}
           <div className="border border-gray-200 rounded-2xl p-6 hover:shadow-md transition">
 
             <h3 className="text-xl font-bold text-gray-800">
@@ -171,7 +162,6 @@ const AboutCalculator = () => {
 
           </div>
 
-          {/* Hypothyroid */}
           <div className="border border-gray-200 rounded-2xl p-6 hover:shadow-md transition">
 
             <h3 className="text-xl font-bold text-gray-800">
@@ -196,7 +186,6 @@ const AboutCalculator = () => {
         </div>
       </div>
 
-      {/* Why Use NirogGyan */}
       <div className="max-w-6xl mx-auto mt-8 bg-white rounded-3xl p-6 md:p-10">
 
         <h2 className="text-3xl font-bold text-[#0b3ed8]">
@@ -254,7 +243,6 @@ const AboutCalculator = () => {
         </div>
       </div>
 
-      {/* Important Disclaimer */}
       <div className="max-w-6xl mx-auto mt-8 mb-10 bg-[#fff8e7] border border-[#f1dfaa] rounded-3xl p-6 md:p-10">
 
         <h2 className="text-2xl font-bold text-gray-800">

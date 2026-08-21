@@ -101,7 +101,6 @@ const HeartCalculator = () => {
   return (
     <section className="min-h-screen bg-gray-300 p-5">
 
-      {/* Header */}
       <div className="text-center py-10">
 
         <div className="inline-block bg-gradient-to-r from-[#0dcaf0] to-[#0b3ed8] text-white px-5 py-2 rounded-full text-sm font-medium shadow-md">
@@ -118,7 +117,6 @@ const HeartCalculator = () => {
         </p>
       </div>
 
-      {/* Form Card */}
       <div className="max-w-4xl mx-auto bg-white rounded-3xl p-6 md:p-10 shadow-md">
 
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
@@ -133,7 +131,6 @@ const HeartCalculator = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            {/* Age */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Age
@@ -152,7 +149,6 @@ const HeartCalculator = () => {
               />
             </div>
 
-            {/* HDL */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 HDL Cholesterol
@@ -175,7 +171,6 @@ const HeartCalculator = () => {
               </p>
             </div>
 
-            {/* Total Cholesterol */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Total Cholesterol
@@ -198,7 +193,6 @@ const HeartCalculator = () => {
               </p>
             </div>
 
-            {/* SBP */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Systolic Blood Pressure
@@ -221,7 +215,6 @@ const HeartCalculator = () => {
               </p>
             </div>
 
-            {/* BP Treatment */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Blood Pressure Treatment
@@ -244,7 +237,6 @@ const HeartCalculator = () => {
               </select>
             </div>
 
-            {/* Smoking */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Smoking Status
@@ -267,7 +259,6 @@ const HeartCalculator = () => {
               </select>
             </div>
 
-            {/* Diabetes */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Diabetes
@@ -293,7 +284,6 @@ const HeartCalculator = () => {
               </select>
             </div>
 
-            {/* Triglycerides */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Triglycerides
@@ -318,7 +308,6 @@ const HeartCalculator = () => {
 
           </div>
 
-          {/* Consent */}
           <div className="mt-8 rounded-2xl border border-gray-200 bg-gray-50 p-4">
             <label
               htmlFor="heartConsent"
@@ -342,7 +331,6 @@ const HeartCalculator = () => {
             </label>
           </div>
 
-          {/* Submit */}
           <button
             type="submit"
             disabled={isLoading || !consent}
@@ -362,7 +350,6 @@ const HeartCalculator = () => {
         </p>
       </div>
 
-      {/* ================= RESULT MODAL ================= */}
 
       {result && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">

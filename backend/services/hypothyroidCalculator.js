@@ -10,9 +10,6 @@ const calculateHypothyroidRisk = (data) => {
     thyroidAntibodies,
   } = data;
 
-  // ============================
-  // VALIDATION
-  // ============================
 
   if (
     age === undefined ||
@@ -44,9 +41,6 @@ const calculateHypothyroidRisk = (data) => {
     throw new Error("Age and TSH must be valid numbers");
   }
 
-  // ============================
-  // AGE SCORE
-  // ============================
 
   let ageScore = 0;
 
@@ -54,19 +48,13 @@ const calculateHypothyroidRisk = (data) => {
     ageScore = 5;
   }
 
-  // ============================
-  // GENDER SCORE
-  // ============================
+
 
   let genderScore = 0;
 
   if (gender === "female") {
     genderScore = 10;
   }
-
-  // ============================
-  // FAMILY HISTORY SCORE
-  // ============================
 
   let familyHistoryScore = 0;
 
@@ -78,9 +66,7 @@ const calculateHypothyroidRisk = (data) => {
     familyHistoryScore = 10;
   }
 
-  // ============================
-  // SYMPTOMS SCORE
-  // ============================
+
 
   let symptomsScore = 0;
 
@@ -94,9 +80,7 @@ const calculateHypothyroidRisk = (data) => {
     symptomsScore = 15;
   }
 
-  // ============================
-  // AUTOIMMUNE DISEASE SCORE
-  // ============================
+
 
   let autoimmuneDiseaseScore = 0;
 
@@ -108,9 +92,6 @@ const calculateHypothyroidRisk = (data) => {
     autoimmuneDiseaseScore = 10;
   }
 
-  // ============================
-  // TSH SCORE
-  // ============================
 
   let tshScore = 0;
 
@@ -118,9 +99,7 @@ const calculateHypothyroidRisk = (data) => {
     tshScore = 20;
   }
 
-  // ============================
-  // FREE T4 / T3 SCORE
-  // ============================
+
 
   let freeT4OrT3Score = 0;
 
@@ -132,10 +111,7 @@ const calculateHypothyroidRisk = (data) => {
     freeT4OrT3Score = 10;
   }
 
-  // ============================
-  // THYROID ANTIBODY SCORE
-  // ============================
-
+ 
   let thyroidAntibodiesScore = 0;
 
   if (
@@ -146,9 +122,7 @@ const calculateHypothyroidRisk = (data) => {
     thyroidAntibodiesScore = 15;
   }
 
-  // ============================
-  // TOTAL SCORE
-  // ============================
+
 
   const totalScore =
     ageScore +
@@ -160,9 +134,7 @@ const calculateHypothyroidRisk = (data) => {
     freeT4OrT3Score +
     thyroidAntibodiesScore;
 
-  // ============================
-  // RISK LEVEL
-  // ============================
+
 
   let riskLevel;
 
@@ -174,9 +146,7 @@ const calculateHypothyroidRisk = (data) => {
     riskLevel = "High";
   }
 
-  // ============================
-  // RESULT
-  // ============================
+  
 
   return {
     totalScore,

@@ -44,8 +44,6 @@ export const calculateHypothyroid = (req, res) => {
   }
 };
 
-
-
 export const calculateHeart = (req, res) => {
   try {
     const data = req.body;
@@ -57,7 +55,6 @@ export const calculateHeart = (req, res) => {
       calculator: "Heart Risk Calculator",
       result,
     });
-
   } catch (error) {
     console.error("Heart calculation error:", error);
 

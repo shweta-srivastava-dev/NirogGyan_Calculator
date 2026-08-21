@@ -13,10 +13,8 @@ const Footer = () => {
     <footer className="bg-[#0b1629] text-gray-400">
       <div className="max-w-7xl mx-auto px-6 py-14">
 
-        {/* Main Footer */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
 
-          {/* Logo + About */}
           <div className="lg:col-span-1">
             <h2 className="text-3xl font-bold text-[#2878df]">
               niroggyan
@@ -27,7 +25,6 @@ const Footer = () => {
               and tools to make better-informed health decisions.
             </p>
 
-            {/* Social Icons */}
             <div className="flex gap-4 mt-7">
               <a
                 href="#"
@@ -66,7 +63,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Products */}
           <div>
             <h3 className="text-white font-bold uppercase tracking-wide text-sm">
               Our Products
@@ -105,7 +101,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
           <div>
             <h3 className="text-white font-bold uppercase tracking-wide text-sm">
               Resources
@@ -138,7 +133,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h3 className="text-white font-bold uppercase tracking-wide text-sm">
               Company
@@ -171,7 +165,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact + Newsletter */}
           <div>
             <h3 className="text-white font-bold uppercase tracking-wide text-sm">
               Contact
@@ -187,7 +180,6 @@ const Footer = () => {
               </a>
             </div>
 
-            {/* Newsletter */}
             <h3 className="text-white font-bold uppercase tracking-wide text-sm mt-8">
               Newsletter
             </h3>
@@ -210,7 +202,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Border */}
         <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
 
           <p>

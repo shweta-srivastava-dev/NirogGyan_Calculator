@@ -93,7 +93,6 @@ const DiabetesCalculator = () => {
   return (
     <section className="min-h-screen bg-gray-300 p-5">
 
-      {/* Header */}
       <div className="text-center py-10">
 
         <div className="inline-block bg-gradient-to-r from-[#0dcaf0] to-[#0b3ed8] text-white px-5 py-2 rounded-full text-sm font-medium shadow-md">
@@ -110,7 +109,6 @@ const DiabetesCalculator = () => {
         </p>
       </div>
 
-      {/* Form Card */}
       <div className="max-w-4xl mx-auto bg-white rounded-3xl p-6 md:p-10 shadow-md">
 
         <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
@@ -125,7 +123,6 @@ const DiabetesCalculator = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            {/* Age */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Age
@@ -144,7 +141,6 @@ const DiabetesCalculator = () => {
               />
             </div>
 
-            {/* Gender */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Gender
@@ -163,7 +159,6 @@ const DiabetesCalculator = () => {
               </select>
             </div>
 
-            {/* Waist */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Waist Circumference
@@ -186,7 +181,6 @@ const DiabetesCalculator = () => {
               </p>
             </div>
 
-            {/* Physical Activity */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Physical Activity
@@ -206,7 +200,6 @@ const DiabetesCalculator = () => {
               </select>
             </div>
 
-            {/* Family History */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Family History of Diabetes
@@ -226,7 +219,6 @@ const DiabetesCalculator = () => {
               </select>
             </div>
 
-            {/* HbA1c */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 HbA1c
@@ -249,7 +241,6 @@ const DiabetesCalculator = () => {
               </p>
             </div>
 
-            {/* PP Sugar */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Post-Prandial Blood Sugar
@@ -273,7 +264,6 @@ const DiabetesCalculator = () => {
               </p>
             </div>
 
-            {/* Fasting Sugar */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Fasting Blood Sugar
@@ -298,7 +288,6 @@ const DiabetesCalculator = () => {
 
           </div>
 
-          {/* Consent */}
           <div className="mt-8 rounded-2xl border border-gray-200 bg-gray-50 p-4">
             <label
               htmlFor="diabetesConsent"
@@ -322,7 +311,6 @@ const DiabetesCalculator = () => {
             </label>
           </div>
 
-          {/* Submit */}
           <button
             type="submit"
             disabled={isLoading || !consent}
@@ -335,7 +323,6 @@ const DiabetesCalculator = () => {
 
         </form>
 
-        {/* Disclaimer */}
         <p className="mt-6 text-xs text-gray-400 text-center leading-relaxed">
           This calculator is intended for informational and risk-assessment
           purposes only. It is not a diagnosis and should not replace advice
@@ -343,7 +330,6 @@ const DiabetesCalculator = () => {
         </p>
       </div>
 
-      {/* ================= RESULT MODAL ================= */}
 
       {result && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">
